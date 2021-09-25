@@ -7,6 +7,7 @@ export const environment = {
   firebase: {
     apiKey: "AIzaSyD5Fg9MRcjEZmHXnYAQetriHwoB-xub-Ms",
     authDomain: "fir-crud-demo-b37ca.firebaseapp.com",
+    databaseURL: "https://fir-crud-demo-b37ca-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "fir-crud-demo-b37ca",
     storageBucket: "fir-crud-demo-b37ca.appspot.com",
     messagingSenderId: "639431740439",

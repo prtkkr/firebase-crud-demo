@@ -11,9 +11,11 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
 import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'tutorials', pathMatch: 'full' },
+  // { path: '', component: HomeComponent },
   { path: 'tutorials', component: TutorialsListComponent },
   { path: 'add', component: AddTutorialComponent }
 ];
@@ -23,7 +25,8 @@ const routes: Routes = [
     AppComponent,
     AddTutorialComponent,
     TutorialsListComponent,
-    TutorialDetailsComponent
+    TutorialDetailsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
